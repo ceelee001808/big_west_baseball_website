@@ -1,6 +1,12 @@
 # Diamond Index — JUCO → Big West Readiness Board
 
-An interactive scouting dashboard that ranks junior college (JUCO) hitters by how closely their batting profile resembles players who actually transferred to Big West Division I programs. Built as a single, dependency-free `index.html` — no build step, no server, works offline.
+An interactive scouting dashboard that ranks junior college (JUCO) hitters by how closely their batting profile resembles players who actually transferred to Big West Division I programs. Built as a single, dependency-free `index.html` ... no build step, no server, works offline.
+
+
+<img width="1507" height="692" alt="DIAMOND_INDEX_1" src="https://github.com/user-attachments/assets/7f9cba02-5acf-46af-b41e-c0b4c195fbb0" />
+
+<img width="989" height="417" alt="DIAMOND_INDEX_2" src="https://github.com/user-attachments/assets/da5b173d-9fb0-41a9-809f-ce0e15f76a05" />
+
 
 ## What it does
 
