@@ -24,6 +24,14 @@ A Random Forest classifier was trained on **27,012 JUCO hitter-seasons** (2020�
 
 The **readiness score** is the raw fraction of the 200 trees that vote "transfer" — 138 yes votes → 69. Tiers: **Elite ≥ 70** · **Strong 55–69** · **Developing 40–54** · **Below threshold < 40**.
 
+## Rate your player
+
+Coaches don't need to find a player on the board...they can run the model themselves. The **"＋ Rate your player"** panel takes plain season totals (AB, H, 2B, 3B, HR, BB, SO, HBP, SF, SB, CS), derives the 7 model features automatically, and evaluates the **actual trained 200-tree Random Forest live in the browser**.
+
+
+<img width="1484" height="440" alt="Screenshot 2026-07-05 at 1 06 22 AM" src="https://github.com/user-attachments/assets/daab93a2-e678-4d01-a34a-e648736e3ea3" />
+
+
 ## Features
 
 - **Sortable leaderboard** — 250 prospects, sortable by any column (readiness, OBP, SLG, K%, HR, year, name), with live search by player, JUCO program, or destination school
@@ -36,6 +44,11 @@ The **readiness score** is the raw fraction of the 200 trees that vote "transfer
 - **Copy scout line** — one click produces a paste-ready text summary for notes, texts, or reports
 - **Model card** — plain-language explanation of the vote mechanism, feature importances, what AUC 0.653 means, and what the score cannot see
 - **Responsive** — collapses gracefully to tablet and phone widths; respects reduced-motion preferences
+
+<img width="382" height="757" alt="Screenshot 2026-07-05 at 1 10 28 AM" src="https://github.com/user-attachments/assets/d4e42103-ca3f-4e0d-b597-76b893b7b864" />
+
+<img width="746" height="339" alt="Screenshot 2026-07-05 at 1 10 38 AM" src="https://github.com/user-attachments/assets/befce66c-f9c2-446d-97d8-a8caaa86ef02" />
+
 
 ## Getting started
 
@@ -68,9 +81,7 @@ Everything — markup, styles, the top-250 dataset, percentile grids, and logic 
 
 Importances cluster tightly (12.6–16.0%), so the model rewards complete offensive profiles rather than one standout tool.
 
-## Read it honestly
-
-The model only sees the batting line. It cannot account for:
+##  The model only sees the batting line. It cannot account for:
 
 - Defense, arm strength, speed tools beyond stolen bases, makeup, or academics
 - Whether a player wanted to transfer or was eligible to
